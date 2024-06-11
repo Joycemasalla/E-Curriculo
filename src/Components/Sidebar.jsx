@@ -17,7 +17,8 @@ export function Sidebar() {
         
         
         <footer>
-            <a href="https://github.com/Joycemasalla" > @Joycemasalla</a>
+            <a href="https://github.com/Joycemasalla" > <img src='https://cdn-icons-png.flaticon.com/512/25/25231.png' width='20px'height='20px'/>Joycemasalla</a>
+            <a href="https://www.instagram.com/joycemasalla/"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png"width='20px' height='20px'/>joycemasalla</a>
         </footer>
         
         

@@ -16,12 +16,11 @@ export  function Post() {
             </header>
             <div className={styles.content}>
                 <p> Sobre você</p>
-                <p> onfoengonesdgndngodngds</p>
-                <a href="">Link</a>
+                <p> Estudante dedicada com habilidades sólidas em pensamento crítico e proatividade, buscando oportunidades para aplicar meus conhecimentos acadêmicos e habilidades práticas em um ambiente profissional. Apesar de ainda não ter experiência profissional extensa, estou comprometida em aprender e crescer dentro da área de programação. </p>
+                
             </div>
             <form className={styles.commentsForm}>
                 <strong>Experiencia Profissional</strong>
-                <input type="text" placeholder="Experiencia Profissional"/> 
             </form>
             <div>
                 <Comments/>

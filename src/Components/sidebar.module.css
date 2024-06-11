@@ -49,4 +49,11 @@
     text-decoration: none;
     align-items: center;
     justify-content: center;
+    margin: 4px;
+}
+
+.sidebar footer a:hover{
+    background-color: var(--green-500);
+    color: var(--white);
+    border: 1px solid var(--green-500);
 }
