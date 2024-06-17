@@ -21,12 +21,14 @@
 
 .authorInfo strong{
     display: block;
+    font-size: 20px;
     align-items: center;
     line-height: 1.6;
     color: var(--gray-100);
     justify-content: center;
     display: flex;
     align-items: center;
+    margin-top: 1.5rem;
 
 }
 
@@ -40,16 +42,24 @@
     display: flex;
     align-items: center;
 }
-.content{
+.content {
    color: var(--gray-300);
    line-height: 1.6;
-   margin-top: 1.25rem;
+   margin-top: 1rem;
+   display: flex;
+   flex-direction: column;
+    gap: 10px; /* Espaçamento entre as divs */
+    padding: 20px;
+    text-align: center
+   
+
 }
 
 .content p{
-    margin-top: 1.25rem;
     margin-bottom: 1.25rem;
 }
+.content h1{
+    color: var(--green-500)}
 .content a{
     font-weight: bold;
     text-decoration: none;
@@ -58,4 +68,14 @@
 
 .content a:hover{
     color: var(--gray-400);
+}
+
+.commentsForm{
+    color: var(--green-500);
+   line-height: 1.6;
+   margin-top: 1.25rem;
+   display: flex;
+    padding: 20px;
+    text-align: center;
+    justify-content: center
 }

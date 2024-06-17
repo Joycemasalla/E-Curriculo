@@ -9,18 +9,25 @@ export  function Post() {
                 <div className={styles. authorInfo}>
                     <strong >Joyce</strong>
                     <br/>
-                    <span>Estudante</span>
                 </div>
                 </div>
 
             </header>
             <div className={styles.content}>
-                <p> Sobre você</p>
+                <h1> Sobre você</h1>
                 <p> Estudante dedicada com habilidades sólidas em pensamento crítico e proatividade, buscando oportunidades para aplicar meus conhecimentos acadêmicos e habilidades práticas em um ambiente profissional. Apesar de ainda não ter experiência profissional extensa, estou comprometida em aprender e crescer dentro da área de programação. </p>
-                
+                <h1>Formação Acadêmica</h1>
+                <strong>Análise e Desenvolvimento de Sistemas</strong>
+                <p>Faminas 2024-2026</p>
+                <strong>Desenvolvedor FullStack</strong>
+                <p>Senai 2023-2024</p>
+                <strong>Informática Básica - Office</strong>
+                <p>IBR 2022-2023</p>
+                <strong>Inglês</strong>
+                <p>Bruno Capobiango 2024 -</p>
             </div>
             <form className={styles.commentsForm}>
-                <strong>Experiencia Profissional</strong>
+                <h1>Experiencia Profissional</h1>
             </form>
             <div>
                 <Comments/>
